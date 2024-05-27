@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow:hidden;
+}
+
+#menu {
+  background-color: inherit;
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.1);
+  text-align: center;
+  font-weight: bold;
+}
+
+.block-heading {
+  text-align: center;
+}
+.grand-rectangle {
+    width: 450px; /* Ajuster la largeur selon vos besoins */
+    height: 500px; /* Ajuster la hauteur selon vos besoins */
+    border: 3px solid black; /* Style de la bordure */
+    margin: 10% auto ; /* Centrer le rectangle */
+    display: flex; /* Activer la disposition flexible */
+    flex-wrap: wrap; /* Permettre aux éléments de s'agencer sur plusieurs lignes */
+    flex-direction: column;
+    text-align: center;
+}
+.grand-rectangle:hover{
+    background-color: #EEE;
+}
+.error{
+    margin-top:20px;
+}
+.foot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0
+
+}

@@ -1,0 +1,24 @@
+header {
+    text-decoration: underline;
+    text-align: center;
+}
+body {
+    background-color: blanchedalmond;
+    min-height: 100vh; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding : 5px 5px;
+}
+
+footer {
+    text-align: center;
+    text-emphasis-position: over right;
+
+
+}
